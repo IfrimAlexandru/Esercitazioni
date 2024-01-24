@@ -1,0 +1,13 @@
+
+
+table{
+    
+    border-radius: 5px;
+    width: 400px;
+    border-collapse: collapse;
+    
+}
+
+td, th, form{
+    border: 1px solid black;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina registrazione dati</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <header>Registrati</header>
+        <form onsubmit="alert('Registrazione inviata')" class="form">
+    
+            <div class="input-box">
+                <label>Nome</label>
+                <input type="text" placeholder=" nome" required />   
+            </div>
+            
+            <div class="input-box">
+                <label>Cognome</label>
+                <input type="text" placeholder=" cognome" required />   
+            </div>
+            
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder=" email " required />
+            </div>
+            
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" placeholder=" password" required />
+            </div>
+            
+            <div class="input-box">
+                <label>Conferma la tua password</label>
+                <input type="password" placeholder=" password" required />  
+            </div>
+            
+            <div class="input-box">
+                <label>Cellulare</label>
+                <input type="number" placeholder=" cellulare" required/>    
+            </div>
+            <div class="input-box">
+                <label>Data di nascita</label>
+                <input type="date" placeholder=" data di nascita " required/> 
+            </div>
+            <div class="checkbox">
+                <h3>Aggiungi lo stile di musica che ti piace</h3>
+                <div class="music-style"> 
+                    <input type="checkbox">Rock
+                    <input type="checkbox">Pop
+                    <input type="checkbox">Indie
+                    <input type="checkbox">Rap
+                    <input type="checkbox">Metal
+                    <input type="checkbox">Classica
+                </div>
+                   
+                
+            <div class="radio">
+                <input type="radio"/> Accetto <a href="NULL">Termini e condizioni </a>
+            </div>
+            <button type="submit"> Invia registrazione</button>
+    
+        </form>    
+            
+    </section>
+    
+    
+   
+    
+    
+</body>
+</html>
